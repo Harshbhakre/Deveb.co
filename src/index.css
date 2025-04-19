@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body{
+  scroll-behavior: smooth;
+}
+@layer base {
+    @font-face {
+      font-family: "sp";
+      src: url("/sp.woff2") format("woff2");
+    }
+
+}
